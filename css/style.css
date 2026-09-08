@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menu {
+    text-align: end;
+    padding-right: 20px;
+
+}
+
+#introducao {
+    background-color: rgba(125, 185, 205, 0.21);
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    padding: 30px;
+    flex: 1;
+}
+
+#serra {
+    width: 300px;
+    height: 300px
+}
