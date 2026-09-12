@@ -5,14 +5,30 @@
 }
 
 body {
-    background-color: rgba(211, 206, 206, 0.306);
+    background-color: rgba(173, 216, 230, 0.199);
+}
+
+span {
+    color: rgb(253, 3, 3);
+    font-weight: bold;
 }
 
 header {
-    display: flex;
-    padding-right: 20px;
-    gap: 20px;
-    justify-content: center;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+     #logo {
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+
+    #opcao {
+        display:flex ;
+        padding-right: 40px;
+        gap: 30px;
+        justify-content: end;
+    }
 }
 
 
@@ -23,32 +39,48 @@ h2 {
 }
 
 #introducao {
-    background-color: rgba(125, 185, 205, 0.21);
+    background-color: rgba(98, 135, 255, 0.178);
     margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 30px;
+    gap: 50px;
     padding: 30px;
+    
+    #serra {
+        width: 300px;
+        height: 300px
+    }
 }
 
-#serra {
-    width: 300px;
-    height: 300px
-}
+
+#titulocards {
+    padding-left: 40px;
+    padding-top: 20px;
+
+    h3 {
+        font-size: 50px;
+    }
+ }
 
 #cards {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 15px;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px;
-    p {
-        padding-left: 20px;
+    padding: 40px;
+
+    h4 {
+        padding-left: 10px;
         font-size: 20px;
         font-weight: bold;
+    }
+
+    p {
+        padding: 10px;
+        color: rgb(105, 103, 103);
     }
 }
 
@@ -59,7 +91,17 @@ h2 {
 }
 
 .card {
-    background-color:  white;
+    background-color: white;
     padding: 20px;
     width: 30%;
+}
+
+footer {
+     hr {
+        margin: 30px;
+     }
+    small {
+        margin: 40px;
+        color: rgb(70, 70, 70);
+    }
 }
